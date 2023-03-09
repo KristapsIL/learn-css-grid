@@ -1,8 +1,21 @@
 .container{
-    background-color: lightskyblue;
+    background-color: #40fef4;
     display: grid;
-    grid-template-columns: repeat(5, 100px);
-    grid-template-columns: 100px;
-.item{
-    background-color: blue;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: 100px 100px;
+    row-gap: 25px;
+    column-gap: 25px;
+    width: 600px;
+}
+.item-1, .item-2, .item-3, .item-4, .item-5{
+    background-color: #00b3ff;
+    padding-left: 10px;
+    padding-top: 10px;
+    color:white;
+}
+.item-6, .item-7, .item-8, .item-9, .item-10{
+    background-color: #0051ff;
+    padding-left: 10px;
+    padding-top: 10px;
+    color:white;
 }
