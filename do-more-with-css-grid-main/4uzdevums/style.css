@@ -1,7 +1,7 @@
 .container {
   background-color: rgb(255, 221, 0);
   display: grid;
-  grid-template-columns: max-content min-content minmax(400px, 1fr);
+  grid-template-columns: max-content min-content minmax(400px, auto);
   grid-template-rows: repeat(2, 1fr);
   /* Izvieto, lūdzu, CSS Grid ar 3 tādām kolonnām,
   kādas vēlas būt katrs no tekstiem 1. rindā.
@@ -12,7 +12,7 @@
 }
 
 .item {
-  background-color: rgb(239, 80, 80);
+  background-color: rgb(0, 129, 250);
   font-family: sans-serif;
   color: white;
   padding: 5px;
